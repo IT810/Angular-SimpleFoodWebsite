@@ -94,8 +94,56 @@
             ],
             "scripts": []
           }
+        },
+        "cypress-run": {
+          "builder": "@cypress/schematic:cypress",
+          "options": {
+            "devServerTarget": "Angular-SimpleFoodWebsite:serve"
+          },
+          "configurations": {
+            "production": {
+              "devServerTarget": "Angular-SimpleFoodWebsite:serve:production"
+            }
+          }
+        },
+        "cypress-open": {
+          "builder": "@cypress/schematic:cypress",
+          "options": {
+            "watch": true,
+            "headless": false
+          }
+        },
+        "ct": {
+          "builder": "@cypress/schematic:cypress",
+          "options": {
+            "devServerTarget": "Angular-SimpleFoodWebsite:serve",
+            "watch": true,
+            "headless": false,
+            "testingType": "component"
+          },
+          "configurations": {
+            "development": {
+              "devServerTarget": "Angular-SimpleFoodWebsite:serve:development"
+            }
+          }
+        },
+        "e2e": {
+          "builder": "@cypress/schematic:cypress",
+          "options": {
+            "devServerTarget": "Angular-SimpleFoodWebsite:serve",
+            "watch": true,
+            "headless": false
+          },
+          "configurations": {
+            "production": {
+              "devServerTarget": "Angular-SimpleFoodWebsite:serve:production"
+            }
+          }
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "6258d933-3071-4dc3-9100-1658dd72ac02"
   }
 }

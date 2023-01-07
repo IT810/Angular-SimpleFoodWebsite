@@ -1,0 +1,12 @@
+footer {
+  padding: 20px;
+  background-color: khaki;
+  border-top: 1px solid #e72929;
+  margin-top: 20px;
+  text-align:center
+}
+
+span{
+    color:crimson;
+    font-weight: bold;
+}
