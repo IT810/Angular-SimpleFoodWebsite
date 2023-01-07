@@ -1,6 +1,8 @@
 # Angular - Simple Food Website
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.8.
+ - This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.8.
+ - [Course Link](https://www.youtube.com/playlist?list=PLpaspowtqj-dlt-C7FvRG42LNRFcXdRDD)
+ - [Demo Link]()
 
 ## Development server
 
