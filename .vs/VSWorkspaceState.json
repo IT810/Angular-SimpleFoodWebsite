@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\src",
+    "\\src\\app",
+    "\\src\\app\\cart-page",
+    "\\src\\app\\food-page",
+    "\\src\\app\\footer",
+    "\\src\\app\\not-found",
+    "\\src\\app\\services",
+    "\\src\\app\\services\\cart",
+    "\\src\\app\\tags"
+  ],
+  "SelectedNode": "\\src\\index.html",
+  "PreviewInSolutionExplorer": false
+}
